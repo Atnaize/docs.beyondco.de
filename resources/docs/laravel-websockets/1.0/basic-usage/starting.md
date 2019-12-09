@@ -26,7 +26,7 @@ For example, by using `127.0.0.1`, you will only allow WebSocket connections fro
 php artisan websockets:serve --host=127.0.0.1
 ```
 
-## Keeping the socket server running with supervisord
+## Keeping the socket server running with supervisor
 
 The `websockets:serve` daemon needs to always be running in order to accept connections. This is a prime use case for `supervisor`, a task runner on Linux.
 
